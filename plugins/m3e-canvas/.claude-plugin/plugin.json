@@ -1,0 +1,11 @@
+{
+  "name": "m3e-canvas",
+  "displayName": "M3E Canvas",
+  "version": "1.0.0",
+  "description": "Turn an idea or an existing M3E Canvas project into editable Material 3 Expressive screen sketches.",
+  "author": {
+    "name": "M3E Canvas contributors"
+  },
+  "homepage": "https://lnkiai.github.io/m3e-canvas/",
+  "license": "MIT"
+}

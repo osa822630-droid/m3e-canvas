@@ -95,6 +95,19 @@ M3E Canvas is a free, open-source sketchpad for app screens made of real Materia
 | `Delete` | Delete part or screen |
 | `P` | Preview |
 
+## Use with Claude on the web
+
+This fork includes an M3E Canvas plugin for Claude chat. No Claude Code, API key, connector, or local server is needed for the plugin.
+
+1. In Claude, open **Customize → Plugins → Add → Add marketplace → Add from a repository**.
+2. Enter `osa822630-droid/m3e-canvas` (or `https://github.com/osa822630-droid/m3e-canvas`) and add the marketplace.
+3. Find **M3E Canvas** in the marketplace and add the plugin. Adding the marketplace does not automatically install it.
+4. Open a chat and ask Claude, for example, “Create an M3E Canvas sketch for a recipe app with a home screen and recipe details.” You can also select the **sketch** skill from the available skills menu.
+
+Claude can return an editable Canvas link when code execution is available. Otherwise, save the complete JSON it returns as a UTF-8 `.json` file and use **Open project** in the editor. To revise a design, give Claude the saved project or share link; without code execution, provide the JSON. The plugin does not see the canvas currently open in your browser.
+
+The link opens the original public editor at <https://lnkiai.github.io/m3e-canvas/>, or a compatible hosted copy if you ask for one. The project is contained in the link, so anyone with the link can recover it. The plugin has no connector and does not upload your project; the editor may load external image URLs included in it. Claude's feature availability and usage limits depend on your account. See the [plugin README](plugins/m3e-canvas/README.md) for details.
+
 ## <img src="docs/readme/ui/icon-run.png" width="32" height="32" align="absmiddle" alt="" /> Run it locally
 
 ```bash
