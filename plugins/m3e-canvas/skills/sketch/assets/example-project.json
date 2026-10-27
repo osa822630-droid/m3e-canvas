@@ -1,0 +1,44 @@
+{
+  "title": "Recipes",
+  "brief": "Browse saved recipes and open their details.",
+  "frame": "phone",
+  "platform": "android",
+  "paletteKey": "purple",
+  "frames": [
+    { "id": "home", "name": "Home", "x": 0, "y": 0, "note": "Browse saved recipes." },
+    { "id": "detail", "name": "Recipe", "x": 492, "y": 0, "note": "Read and save a recipe." }
+  ],
+  "groups": [
+    {
+      "id": "home-bar", "x": 0, "y": 0, "axis": "x",
+      "items": [
+        { "id": "home-title", "kind": "topAppBar", "label": "Recipes", "icon": null, "variant": "filled" }
+      ]
+    },
+    {
+      "id": "home-recipes", "x": 16, "y": 112, "axis": "y",
+      "items": [
+        { "id": "soup-row", "kind": "listItem", "label": "Tomato soup", "supporting": "30 min", "icon": "restaurant", "variant": "filled", "action": { "to": "detail", "transition": "slide" } },
+        { "id": "pancake-row", "kind": "listItem", "label": "Pancakes", "supporting": "20 min", "icon": "restaurant", "variant": "filled" }
+      ]
+    },
+    {
+      "id": "detail-bar", "x": 492, "y": 0, "axis": "x",
+      "items": [
+        { "id": "detail-title", "kind": "topAppBar", "label": "Tomato soup", "icon": "arrow_back", "variant": "filled", "actions": { "icon": { "to": "back", "transition": "slide" } } }
+      ]
+    },
+    {
+      "id": "detail-card", "x": 508, "y": 112, "axis": "x",
+      "items": [
+        { "id": "recipe-card", "kind": "card", "label": "Tomato soup", "supporting": "Ready in 30 minutes", "icon": null, "variant": "filled", "noImage": true, "size": 380, "size2": 160 }
+      ]
+    },
+    {
+      "id": "detail-save", "x": 508, "y": 300, "axis": "x",
+      "items": [
+        { "id": "save-button", "kind": "button", "label": "Save recipe", "icon": "favorite", "variant": "filled", "size": 380, "note": "Save this recipe to favorites." }
+      ]
+    }
+  ]
+}

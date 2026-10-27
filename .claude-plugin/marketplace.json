@@ -1,0 +1,18 @@
+{
+  "name": "m3e-canvas-marketplace",
+  "owner": {
+    "name": "osa822630-droid"
+  },
+  "metadata": {
+    "description": "M3E Canvas tools for creating editable Material 3 Expressive screen sketches."
+  },
+  "plugins": [
+    {
+      "name": "m3e-canvas",
+      "displayName": "M3E Canvas",
+      "description": "Create editable Material 3 Expressive screen sketches from a conversation and open them in M3E Canvas.",
+      "version": "1.0.0",
+      "source": "./plugins/m3e-canvas"
+    }
+  ]
+}

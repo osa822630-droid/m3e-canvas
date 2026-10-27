@@ -1,0 +1,17 @@
+{
+  "kinds": [
+    "button", "iconButton", "fab", "extendedFab", "splitButton", "fabMenu", "chip",
+    "topAppBar", "bottomNav", "navRail", "toolbar", "tabs", "searchBar", "card",
+    "listItem", "box", "bottomSheet", "dialog", "snackbar", "textField", "select",
+    "switch", "checkbox", "radio", "slider", "datePicker", "timePicker", "text",
+    "image", "carousel", "camera", "map", "divider", "loadingIndicator",
+    "linearProgress", "circularProgress"
+  ],
+  "variants": ["filled", "tonal", "elevated", "outlined", "text"],
+  "layouts": ["multiBrowse", "uncontained", "hero", "fullScreen", "modal", "docked", "input", "dial"],
+  "places": ["top", "center", "bottom", "spread"],
+  "cardImagePositions": ["top", "bottom", "leading", "trailing", "background"],
+  "cardAlignments": ["start", "center", "end"],
+  "textColors": ["onSurface", "onSurfaceVariant", "primary", "secondary", "onPrimaryContainer", "onSecondaryContainer", "onTertiaryContainer", "inverseOnSurface"],
+  "trackThickness": { "min": 2, "max": 16 }
+}
